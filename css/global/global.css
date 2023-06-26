@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, ul, p {
+h1, h2, h3, h4, ul, p, blockquote {
   margin: 0px;
 }
 
@@ -19,4 +19,9 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"]{ /* seleciona apeans itens 'src' e que terminem com '.jpg'*/
+  border-radius: 4px;
 }
